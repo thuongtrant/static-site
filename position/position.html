@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Other page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="position.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/page2.html" aria-current="page">Other page</a>
+      <a href="/position/position.html" aria-current="page">Position page</a>
+    </nav>
+    <main>
+      <h1>Position page</h1>
+      <h2>position: absolute;</h2>
+
+      <p>
+        An element with position: absolute; is positioned relative to the
+        nearest positioned ancestor (instead of positioned relative to the
+        viewport, like fixed):
+      </p>
+
+      <div class="relative">
+        This div element has position: relative;
+        <div class="absolute">This div element has position: absolute;</div>
+      </div>
+    </main>
+  </body>
+</html>
